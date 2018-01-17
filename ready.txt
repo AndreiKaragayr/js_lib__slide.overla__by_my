@@ -1,0 +1,18 @@
+<!-- необходимо подключить стили css--!>
+<link rel="stylesheet" href="css/_slide.css">
+
+
+<div class="slide-bady">
+  <div class="slides">
+    <div class="slide">
+<!-- тут ваша картинка --!>
+      <div class="content">
+<!-- тут ваш текст --!>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<!-- необходимо подключить стили javaScript--!>
+<script src="js/_slide.js"></script>
