@@ -1,18 +1,18 @@
 <!-- необходимо подключить стили css--!>
-<link rel="stylesheet" href="css/_slide.css">
 
+<link rel="stylesheet" href="css/kai_slide.css">
 
-<div class="slide-bady">
-  <div class="slides">
-    <div class="slide">
-<!-- тут ваша картинка --!>
-      <div class="content">
-<!-- тут ваш текст --!>
-      </div>
-    </div>
-  </div>
+// Тут Ваш HTML
+
+<div class="kai-slide">
+
+  <div>Ваш контент</div>
+  <div>Ваш контент</div>
+  <div>Ваш контент</div>
+
 </div>
   
 
 <!-- необходимо подключить стили javaScript--!>
-<script src="js/_slide.js"></script>
+
+<script src="js/kai_slide.js"></script>

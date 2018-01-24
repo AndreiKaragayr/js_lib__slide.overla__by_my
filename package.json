@@ -1,0 +1,27 @@
+{
+  "name": "slaider_overla",
+  "version": "1.0.0",
+  "description": "modul_kai_slide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreiKaragayr/slaider_Overla.git"
+  },
+  "keywords": [
+    "Overla",
+    "slide"
+  ],
+  "author": "Karagayr Andrei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreiKaragayr/slaider_Overla/issues"
+  },
+  "homepage": "https://github.com/AndreiKaragayr/slaider_Overla#readme",
+  "dependencies": {
+    "eslint": "^4.16.0",
+    "jquery": "^3.3.1"
+  }
+}
