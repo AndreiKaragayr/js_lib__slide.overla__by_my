@@ -2,7 +2,7 @@
 ## Слайдер на чистом jQuery.
 [Ссылка на slaider_Overla](https://github.com/AndreiKaragayr/slaider_Overla.git)
 
-![One slide](https://github.com/AndreiKaragayr/slaider_Overla/img/overlap-slide-2-1.jpg "")
+![One slide](https://github.com/AndreiKaragayr/slaider_Overla/img/overlap-slide-2-1.jpg "One slide")
 slaider_Overla/img/overlap-slide-2-1.jpg
 Фишка слайдера:
 1. слайдер всегда на все всоту и ширину экрана
