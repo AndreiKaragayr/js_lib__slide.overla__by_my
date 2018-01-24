@@ -5,8 +5,8 @@ var kaiSlide = document.querySelector('.kai-slide'),
 	next,
 	prev,
 	i=0,
-	w = document.body.offsetWidth,
-	h = document.body.offsetHeight,
+	w = $(window).width(),
+	h = $(window).outerHeight();
 
 // Опции которые можно менять
 opts = {
@@ -171,9 +171,8 @@ function createContent(){
 		if( $(el).find('button') ){
 			$('.kai-content button').addClass('btn-kai');
 		}
-// Обертка для заголовка - эффект выезжания из кармашка
+// Анимирует заголоwindow потому что он в обертке
 		$('.kai-content .wr').children().addClass('kai-title animation');
-		$('.kai-content .wr').css('height', responsiveFont(opts.fontSize*4.5, w));
 	});
 }
 
@@ -195,9 +194,9 @@ function animateContent(){
 // Размер шрифта подстраивается под размер окна
 function changeFontSize(){
 	$('.kai-content').each(function(i,el){
-		$(el).find('.kai-text').css('font-size', responsiveFont(opts.textSize, document.body.offsetWidth) );
-		$(el).find('.kai-title').css('font-size', responsiveFont(opts.textTitle, document.body.offsetWidth) );
-		$(el).find('.btn-kai').css('font-size', responsiveFont(opts.buttonSize, document.body.offsetWidth) );
+		$(el).find('.kai-text').css('font-size', responsiveFont(opts.textSize, $(window).width())  );
+		$(el).find('.kai-title').css('font-size', responsiveFont(opts.titleSize, $(window).width()) );
+		$(el).find('.btn-kai').css('font-size', responsiveFont(opts.buttonSize, $(window).width()) );
 	// Минимальный размер кнопки. Чтоб кнопка не были мелкого шрифта
 		if( document.body.offsetWidth < 1024 ){
 			$(el).find('.btn-kai').css('font-size', responsiveFont(opts.buttonSize, 767) );
@@ -217,8 +216,8 @@ function getResponsive(changeEl){
 function getResize(wrapper, card, item){
 	$( window ).resize(function () {
 		
-		var w = document.body.offsetWidth,
-			h = document.body.offsetHeight;
+		var w = $(window).width(),
+			h = $(window).outerHeight();
 		$(wrapper).css('width', w + 'px');
 		$(wrapper).css('height', h + 'px');
 		$(card).css('width', w + 'px');
