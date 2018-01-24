@@ -1,6 +1,6 @@
 # slaider_Overla
 ## Слайдер на чистом jQuery.
-[Ссылка на slaider_Overla](https://github.com/AndreiKaragayr/slaider_Overla.git)
+[This repository](https://github.com/AndreiKaragayr/slaider_Overla.git)
 
 ![One slide](img/overlap-slide-2-1.jpg "One slide")
 
