@@ -4,19 +4,9 @@ html,body{
 
 body{
 	margin: 0;
+	padding: 0;
 }
 
-@font-face {
-    font-family: 'revicons';
-    src: url('../fonts/revicons.eot');
-    src: url('../fonts/revicons.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/revicons.woff2') format('woff2'),
-        url('../fonts/revicons.woff') format('woff'),
-        url('../fonts/revicons.ttf') format('truetype'),
-        url('../fonts/revicons.svg#revicons') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&subset=cyrillic');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900&subset=cyrillic');
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,300,300i,400,400i,500,500i,700,700i,900');
@@ -119,7 +109,7 @@ body{
 	text-align: center;
 	color: #fff;
 	width: 90%;
-	height: 50%;
+/*	height: 50%;*/
 	text-align: center;
 	z-index: 100;
 
@@ -146,6 +136,7 @@ body{
 }
 
 .slides .kai-content .wr{
+	line-height: 1;
 	overflow: hidden;
 
 	flex: 0 0 auto;
@@ -172,7 +163,7 @@ body{
 }
 
 .animation .line{
-	background-color: rgb(138, 204, 255);;
+	background-color: rgb(138, 204, 255);
 }
 
 @-webkit-keyframes lineDown {
@@ -215,7 +206,7 @@ body{
 	-ms-flex: 0 0 auto;
 }
 
-.slide .kai-content .kai-text:nth-of-type(1){
+.slide .kai-content .kai-text:first-child{
 	text-transform: lowercase;
 }
 
@@ -237,10 +228,11 @@ body{
     color: #fff;
 	line-height: 1;
     text-transform: uppercase;
+    text-decoration: none;
     text-align: center;
     white-space: nowrap;
 	padding: 15px 50px;
-	margin-top: 1em;
+	margin: 1em auto;
 	background-color: rgba(0,0,0,0);
 	border-radius: 0px;
 	border: 1px solid;
@@ -252,11 +244,6 @@ body{
 	transform-origin: 50% 50% 0px;
 	position: relative;
 	z-index: 100;
-
-	flex: 0 0 auto;
-	-webkit-box-flex: 0;
-	-webkit-flex: 0 0 auto;
-	-ms-flex: 0 0 auto;
 }
 
 .slide .kai-content .btn-kai:hover,
@@ -290,7 +277,6 @@ body{
 	transition-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
 }
 
-
 @-webkit-keyframes inDown {
 	0% { opacity: 1; transform: translateY(0); }
 	100% { opacity: 0.2; transform: translateY(+100%); }
@@ -300,7 +286,6 @@ body{
 	0% { opacity: 1; transform: translateY(0); }
 	100% { opacity: 0.2; transform: translateY(+100%); }
 }
-
 
 .kai-slide .prev,
 .kai-slide .next{
@@ -329,23 +314,25 @@ body{
 
 .kai-slide .prev:before,
 .kai-slide .next:before{
-	font-family: 'revicons';
-	font-size: 30px;
+	font-family: 'Font Awesome 5 Free';
+	font-size: 52px;
 	font-weight: bold;
-	color: #fff;
+	color: #eee;
+	opacity: 0.8;
 	line-height: 50px;
-	transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 .kai-slide .prev:before{
-	content: '\e824';
+	content: '\f053';
 }
 .kai-slide .next:before{
-	content: '\e825';
+	content: '\f054';
 }
 .kai-slide .prev:hover:before,
 .kai-slide .prev:active:before,
 .kai-slide .next:hover:before,
 .kai-slide .next:active:before{
-	color: #ccc;
+	opacity: 1;
 }
