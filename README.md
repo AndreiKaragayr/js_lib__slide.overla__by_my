@@ -1,5 +1,5 @@
 # slide Overla
-***
+
 ### Вы можете скачать Слайдер Zip архивом.
 [![download slide Overla](http://gifimage.net/wp-content/uploads/2017/10/download-button-gif-13.gif)](https://github.com/AndreiKaragayr/slide_Overla.git)
 ---
