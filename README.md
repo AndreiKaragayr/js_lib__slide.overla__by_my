@@ -24,12 +24,12 @@
 
 ***
 ### Технические зависимости:
-  + ![jquery](https://jquery.com/)
-  + ![fontawesome v5 icon](https://fontawesome.com/)
+  + [jquery](https://jquery.com/)
+  + [fontawesome v5 icon](https://fontawesome.com/)
 
 ### Шаги по установке
-1. Скачать ![zip архив](https://github.com/AndreiKaragayr/slide_Overla.git) или клонировать  репозиторий себе на ПК
-2. Скачиваем ![jquery](https://jquery.com/) - без него балета не будет )
+1. Скачать [zip архив](https://github.com/AndreiKaragayr/slide_Overla.git) или клонировать  репозиторий себе на ПК
+2. Скачиваем [jquery](https://jquery.com/) - без него балета не будет )
 3. В `index.html` подключаем стили `<link rel="stylesheet" href="css/kai_slide.css">` и JavaScript:
   + библиотека jquery `<script src="js/jquery-3.2.1.min.js"></script>`
   + библиотека slide Overla `<script src="js/kai_slide.js"></script>`
