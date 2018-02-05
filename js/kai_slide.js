@@ -167,6 +167,7 @@ $(document).ready(function($) {
 				$('.slide').eq(i).prev().addClass('no_animation');
 			}
 		}else{
+// тогда слайд начинается с первого (0)
 			i = 0;
 			for (var j = $('.slide').length-1; j > 0; j--) {
 				$('.slide').eq(j).removeClass('active');
