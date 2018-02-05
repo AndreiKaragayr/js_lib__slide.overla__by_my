@@ -118,6 +118,8 @@ $(document).ready(function($) {
 			$(prev).addClass('prev');
 			$(kaiSlide).append($(next));
 			$(kaiSlide).append($(prev));
+			$('.next').wrapInner('<i class="icon-arrow-right"></i>');
+			$('.prev').wrapInner('<i class="icon-arrow-left"></i>');
 	}
 
 	//Для того чтобы под активным слайдом была картинка,

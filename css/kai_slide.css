@@ -312,27 +312,19 @@ body{
 	left: 0;
 }
 
-.kai-slide .prev:before,
-.kai-slide .next:before{
-	font-family: 'Font Awesome 5 Free';
-	font-size: 52px;
-	font-weight: bold;
-	color: #eee;
+.kai-slide .prev > i,
+.kai-slide .next > i{
+	font-size: 30px;
+	color: #eeeeee;
 	opacity: 0.8;
 	line-height: 50px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.kai-slide .prev:before{
-	content: '\f053';
-}
-.kai-slide .next:before{
-	content: '\f054';
-}
-.kai-slide .prev:hover:before,
-.kai-slide .prev:active:before,
-.kai-slide .next:hover:before,
-.kai-slide .next:active:before{
+.kai-slide .prev:hover > i,
+.kai-slide .prev:active > i,
+.kai-slide .next:hover > i,
+.kai-slide .next:active > i{
 	opacity: 1;
 }
