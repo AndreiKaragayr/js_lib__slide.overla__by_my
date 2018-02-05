@@ -22,6 +22,13 @@
   + `colorBtn:`  - цвет кнопки (шрифт)
   + `colorLine:`  - цвет линии
 
+5. #### В slide Overla входит:
+ - папка `css` - стили slide Overla и стили иконок fontawesome v5
+ - папка `js` - библиотеки slide Overla и jquery v3
+ - папка `img` - картинки для демо
+ - `demo.html` - презентационная версия библиотеки
+ - `sampel.html` - простая структура одного простого блока и одного блока с  progress-bar
+
 ***
 ### Технические зависимости:
   + [jquery](https://jquery.com/)
