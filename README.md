@@ -33,7 +33,7 @@
 ***
 ### Технические зависимости:
   + [jquery](https://jquery.com/)
-  + [fontawesome v5 icon](https://fontawesome.com/)
+  + [simple-line-icons](http://simplelineicons.com/)
 
 ### Шаги по установке
 1. Скачать [zip архив](https://github.com/AndreiKaragayr/slide_Overla.git) или клонировать  репозиторий себе на ПК
@@ -57,7 +57,7 @@
 5. Структура Вашего `index.html` должна быть следующей:
 
 ```
-<link rel="stylesheet" href="css/fontawesome-all.min.css">
+<link rel="stylesheet" href="css/simple-line-icons.css">
 <link rel="stylesheet" href="css/kai_slide.css">
 
 <div class="kai-slide">
