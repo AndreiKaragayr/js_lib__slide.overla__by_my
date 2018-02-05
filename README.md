@@ -1,7 +1,8 @@
 # slide Overla
 
 ### Вы можете скачать Слайдер Zip архивом.
-[![download slide Overla](https://archive.org/download/button-download-animated/button-download-animated.gif)](https://github.com/AndreiKaragayr/slide_Overla.git)
+[![download slide Overla](https://a.radikal.ru/a34/1802/4b/b81ed6707937.gif)](https://github.com/AndreiKaragayr/slide_Overla.git)
+
 ---
 ![preview slide](/preview.png "One slide")
 ***
