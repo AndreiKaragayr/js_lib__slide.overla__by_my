@@ -246,4 +246,5 @@ $(document).ready(function($) {
 	function createEl(el){
 		return document.createElement(el);
 	}
+	
 });
