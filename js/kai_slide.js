@@ -210,7 +210,7 @@ $(document).ready(function($) {
 		});
 	}
 
-	// Вспомогательная функция - по ширене и высоте при загрузке окна = размер слайда
+	// Вспомогательная функция - по ширине и высоте при загрузке окна = размер слайда
 	function getResponsive(changeEl){
 		$(changeEl).css('width', w);
 		$(changeEl).css('height', h);
